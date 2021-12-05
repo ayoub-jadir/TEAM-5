@@ -2,10 +2,36 @@
 /* Loghi e icone Ayoub */
 
 /* Brand Color Valentina */
-    --size:
-    
-}
 
+    /* Colori Principali  */
+        --pancake-primary: rgb(31, 199, 212);
+        --pancake-secondary: rgb(118, 69, 217);    
+        --pancake-orange: rgb(255, 178, 55);      
+
+    /* sfondi-Gradienti */
+        --bg-gradient-primary: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
+        --bg-gradient-secondary: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+        --bg-gradient-orange: linear-gradient(rgb(255, 178, 55) 0%, rgb(255, 205, 81) 51.17%, rgb(255, 231, 106) 100%);
+
+        /* dark-violet per i testi principali */
+        --pancake-text-dark-violet: rgb(40, 13, 95);
+
+        /* light-violet per testi minori, icone e minori bottoni */
+        --pancake-light-violet: rgb(122, 110, 170);
+
+        /* Opacità e ombre */
+        --pancake-hover-opacity: 0.65;
+        --pancake-btn-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+
+        /* Colori del Footer */
+        --text-footer-secondary: rgb(154, 106, 255);
+        --bg-footer: rgb(39, 38, 44);
+        --text-footer-light-violet: rgb(184, 173, 210);
+    
+
+    
 /* Button Style Gianluca */
 
 /* Typography Ignazio */
+
+}
