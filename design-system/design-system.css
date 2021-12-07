@@ -5,3 +5,44 @@
 /* Button Style Gianluca */
 
 /* Typography Ignazio */
+body {
+    font-family: 'Kanit', sans-serif;
+}
+nav ul li {
+    font-size: 16px;
+    padding: 0 16px;
+}
+header {
+    font-size: 48px;
+    margin: 0 0 24px;
+}
+.sub_header h2 {
+    font-size: 20px;
+    margin: 0 0 24px;
+}
+.hero_button button {
+    font-size: 16px;
+    padding: 0 24px;
+}
+.section_typography header{
+    font-size: 32px;
+    text-align: center;
+}
+.sub_content h4 {
+    font-size: 16px;
+}
+.best_farm_pool_syrup h2 {
+    font-size: 20px;
+}
+.best_farm_pool_syrup h6 {
+    font-size: 12px;
+}
+.card_lottery h2 {
+    font-size: 40px;
+}
+.cta_section span h2 {
+    font-size: 24px;
+}
+footer {
+    font-size: 16px;
+}
