@@ -1,9 +1,279 @@
+:root{
 /* Loghi e icone Ayoub */
 
 /* Brand Color Valentina */
 
-/* Button Style Gianluca */
+    /* Colori Principali  */
+        --pancake-primary: rgb(31, 199, 212);
+        --pancake-secondary: rgb(118, 69, 217);    
+        --pancake-orange: rgb(255, 178, 55);      
 
+    /* sfondi-Gradienti */
+        --bg-gradient-primary: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
+        --bg-gradient-secondary: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
+        --bg-gradient-orange: linear-gradient(rgb(255, 178, 55) 0%, rgb(255, 205, 81) 51.17%, rgb(255, 231, 106) 100%);
+
+        /* dark-violet per i testi principali */
+        --pancake-text-dark-violet: rgb(40, 13, 95);
+
+        /* light-violet per testi minori, icone e minori bottoni */
+        --pancake-light-violet: rgb(122, 110, 170);
+
+        /* Opacità e ombre */
+        --pancake-hover-opacity: 0.65;
+        --pancake-btn-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+
+        /* Colori del Footer */
+        --text-footer-secondary: rgb(154, 106, 255);
+        --bg-footer: rgb(39, 38, 44);
+        --text-footer-light-violet: rgb(184, 173, 210);
+    }
+    
+
+    
+/* Button Style Gianluca */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 2rem;
+    background-color:  rgb(237 246 255);
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+
+.titolo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testo{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbutton{
+    display: flex;
+    padding: 15px;
+    margin: 1rem;
+}
+
+.standartElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.wallet{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.walletActive{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.walletActive:active{
+    background-color: rgb(28, 196, 182);
+}
+
+.walletHover{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.walletHover:hover{
+    background-color: rgb(28, 196, 182);
+}
+
+.playElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.playButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.playActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.playActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+
+.playHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.playHoverButton:hover{
+    background-color: rgb(28, 196, 182);
+}
+
+.tradeElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.tradeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+.tradeHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeHoverButton{
+    background-color: rgb(28, 196, 182);
+}
+
+.exploreElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.exploreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+.exploreHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreHoverButton:hover{
+    background-color: rgb(28, 196, 182);
+}
 /* Typography Ignazio */
 body {
     font-family: 'Kanit', sans-serif;
