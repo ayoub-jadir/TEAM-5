@@ -24,14 +24,296 @@
         --pancake-btn-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
 
         /* Colori del Footer */
+  
         --text-secondary: rgb(154, 106, 255);
         --pancake-dark: rgb(39, 38, 44);
         --text-light: rgb(184, 173, 210);
+
     
 
     
 /* Button Style Gianluca */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+main{
+    padding: 2rem;
+    background-color:  rgb(237 246 255);
+}
+
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+
+
+.titolo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.testo{
+    display: flex;
+    justify-content: center;
+}
+
+.mainbutton{
+    display: flex;
+    padding: 15px;
+    margin: 1rem;
+}
+
+.standartElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.wallet{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.walletActive{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.walletActive:active{
+    background-color: rgb(28, 196, 182);
+}
+
+.walletHover{
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.walletHover:hover{
+    background-color: rgb(28, 196, 182);
+}
+
+.playElements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+
+.playButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+
+.playActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.playActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+
+.playHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.playHoverButton:hover{
+    background-color: rgb(28, 196, 182);
+}
+
+.tradeElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.tradeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+.tradeHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.tradeHoverButton{
+    background-color: rgb(28, 196, 182);
+}
+
+.exploreElement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+}
+.exploreButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreActiveButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreActiveButton:active{
+    background-color: rgb(28, 196, 182);
+}
+.exploreHoverButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fc7d4;
+    color: white;
+    width: 150px;
+    height: 45px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: grey 0px 1px 0px 0px;
+}
+.exploreHoverButton:hover{
+    background-color: rgb(28, 196, 182);
+}
 /* Typography Ignazio */
-
+body {
+    font-family: 'Kanit', sans-serif;
+}
+nav ul li {
+    font-size: 16px;
+    padding: 0 16px;
+}
+header {
+    font-size: 48px;
+    margin: 0 0 24px;
+}
+.sub_header h2 {
+    font-size: 20px;
+    margin: 0 0 24px;
+}
+.hero_button button {
+    font-size: 16px;
+    padding: 0 24px;
+}
+.section_typography header{
+    font-size: 32px;
+    text-align: center;
+}
+.sub_content h4 {
+    font-size: 16px;
+}
+.best_farm_pool_syrup h2 {
+    font-size: 20px;
+}
+.best_farm_pool_syrup h6 {
+    font-size: 12px;
+}
+.card_lottery h2 {
+    font-size: 40px;
+}
+.cta_section span h2 {
+    font-size: 24px;
+}
+footer {
+    font-size: 16px;
 }
