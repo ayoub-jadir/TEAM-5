@@ -1,10 +1,24 @@
-:root{
-/* Loghi e icone Ayoub */
 
+/* Loghi e icone Ayoub */
+        .logo2 {
+            border: 1px solid transparent;
+            border-radius: 350px;
+            float: right;
+        }
+        .logo-traduzione{
+            float: right;
+        }
+        .logo-impostazioni{
+            float: right;
+        }
+        .logo-footer{
+            background-color: black;
+        }
 /* Brand Color Valentina */
 
     /* Colori Principali  */
-        --pancake-primary: rgb(31, 199, 212);
+    :root {
+    --pancake-primary: rgb(31, 199, 212);
         --pancake-secondary: rgb(118, 69, 217);    
         --pancake-tertiary: rgb(255, 178, 55);      
 
@@ -28,6 +42,8 @@
         --text-secondary: rgb(154, 106, 255);
         --pancake-dark: rgb(39, 38, 44);
         --text-light: rgb(184, 173, 210);
+
+    }
 
     
 
@@ -276,44 +292,33 @@ main{
     background-color: rgb(28, 196, 182);
 }
 /* Typography Ignazio */
-body {
-    font-family: 'Kanit', sans-serif;
+* {
+    font-family: Kanit, sans-serif;
 }
-nav ul li {
-    font-size: 16px;
-    padding: 0 16px;
-}
-header {
+.bigger_text {
     font-size: 48px;
-    margin: 0 0 24px;
+    font-weight: 600;
+    line-height: 1.1;
 }
-.sub_header h2 {
-    font-size: 20px;
-    margin: 0 0 24px;
-}
-.hero_button button {
-    font-size: 16px;
-    padding: 0 24px;
-}
-.section_typography header{
+.big_text {
     font-size: 32px;
-    text-align: center;
+    font-weight: 600;
+    line-height: 1.1;
 }
-.sub_content h4 {
-    font-size: 16px;
-}
-.best_farm_pool_syrup h2 {
+.regular_text {
     font-size: 20px;
+    font-weight: 600;
+    line-height: 1.1;
 }
-.best_farm_pool_syrup h6 {
-    font-size: 12px;
-}
-.card_lottery h2 {
-    font-size: 40px;
-}
-.cta_section span h2 {
-    font-size: 24px;
-}
-footer {
+.small_text {
     font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.btn_text {
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
 }
