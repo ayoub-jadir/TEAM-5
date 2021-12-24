@@ -20,7 +20,8 @@
     :root {
     --pancake-primary: rgb(31, 199, 212);
         --pancake-secondary: rgb(118, 69, 217);    
-        --pancake-tertiary: rgb(255, 178, 55);      
+        --pancake-tertiary: rgb(255, 178, 55);  
+            
 
     /* sfondi-Gradienti */
         --bg-gradient-primary: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);

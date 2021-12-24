@@ -1,0 +1,36 @@
+.earn-container {
+    width: 100%;
+    height: 774px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn-content {
+    border: 1px solid #000;
+    width: 920px;
+    height: 430px;
+    display: flex;
+}
+.earn-sub-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn-img {
+    border: 1px solid #000;
+    width: 415px;
+    height: 430px;
+}
+.earn-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.earn-text-content span:first-child {
+    color: var(--pancake-main-light);
+    font-family: 'Kanit', sans-serif;
+}
+.earn-text-content span:last-child {
+    color: var(--pancake-main-dark);
+    font-family: 'Kanit', sans-serif;
+}
