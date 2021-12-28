@@ -14,16 +14,18 @@
         .logo-footer{
             background-color: black;
         }
+
+
 /* Brand Color Valentina */
 
-    /* Colori Principali  */
+        /* Colori Principali  */
     :root {
-    --pancake-primary: rgb(31, 199, 212);
+        --pancake-primary: rgb(31, 199, 212);
         --pancake-secondary: rgb(118, 69, 217);    
         --pancake-tertiary: rgb(255, 178, 55);  
             
 
-    /* sfondi-Gradienti */
+        /* sfondi-Gradienti */
         --bg-gradient-primary: linear-gradient(139.73deg, rgb(229, 253, 255) 0%, rgb(243, 239, 255) 100%);
         --bg-gradient-secondary: linear-gradient(rgb(118, 69, 217) 0%, rgb(81, 33, 177) 100%);
         --bg-gradient-tertiary: linear-gradient(rgb(255, 178, 55) 0%, rgb(255, 205, 81) 51.17%, rgb(255, 231, 106) 100%);
@@ -42,7 +44,6 @@
         --text-secondary: rgb(154, 106, 255);
         --pancake-dark: rgb(39, 38, 44);
         --text-light: rgb(184, 173, 210);
-
     }
 
     
