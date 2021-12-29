@@ -1,9 +1,19 @@
-/* START Navbar Section */
+/* ---------------------------- START Navbar Section ------------------------ */
+html, body{
+    overflow-x: hidden;
+}
+:root{
+    --animate-duration: 7s !important;
+}
 .logo {
     width:60%;
 }
 a{
     font-size: 16px;
+}
+.a-padding{
+    padding-top:0.2em !important;
+
 }
 .navbar-collapse{
     display:flex;
@@ -114,12 +124,102 @@ a{
     opacity:var(--pancake-hover-opacity);
     background-color: #fff;
 }
+/* ---------------------------- END Navbar Section ------------------------ */
+
+/* ---------------------------- START Hero Section ------------------------ */
+.box-height{
+    height:100vh;
+    background: var(--bg-gradient-primary);
+    padding:0;
+}
+.box2-height{
+    height:90vh;
+    background: var(--bg-gradient-primary);    
+}
+img{
+    width:100%;
+}
+.father{
+    position:relative;
+    z-index:1;
+}
+.child2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.child2-child{
+    position: relative;
+    max-height: 512px !important;
+}
+.sibling1{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sibling2{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sibling3{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.kDWlca-ne{
+    width:100%;
+    fill: var(--pancake-main-dark);
+}
+.box-svg{
+    width:100%;
+    height:150px;
+    position:relative;
+    bottom:11rem;
+}
+.bottom{
+   margin-top:9rem;
+   z-index:1;
+}
+.bottom h1{
+    font-size:60px;
+    margin-bottom:1.5rem;
+    color:var(--pancake-secondary);
+}
+.bottom h4{
+    font-size:20px;
+    font-weight:bold;
+    margin-bottom:1.5rem;
+    color:var(--pancake-main-dark);
+}
+.btn-full-tall{
+    background-color: var(--pancake-primary);
+    color:#fff;
+    box-shadow: var(--pancake-btn-shadow);
+    padding-top:0.7em !important;
+    opacity:1;
+}
+.btn-full-tall:hover{
+    opacity:var(--pancake-hover-opacity);
+}
+.btn-empty{
+    color:var(--pancake-primary);
+    padding-top:0.7em !important;
+    font-weight:bold;
+}
+.animate__animated.animate__slower {
+    -webkit-animation-duration: calc(var(--animate-duration));
+    animation-duration: calc(var(--animate-duration));
+}
+
+/* ---------------------------- END Hero Section ------------------------ */
 
 
 
-/* END Navbar Section */
-
-/* START Earn passive income */
+/* ---------------------------- START Earn Passive Income ------------------------ */
 .earn-container {
     width: 100%;
     height: 774px;
@@ -156,4 +256,4 @@ a{
     color: var(--pancake-main-dark);
     font-family: 'Kanit', sans-serif;
 }
-/* END Earn passive income */
+/* ---------------------------- END Earn Passive Income ------------------------ */

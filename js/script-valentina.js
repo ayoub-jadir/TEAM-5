@@ -18,7 +18,7 @@ function mostraLista() {
 
             for (let i in languages) {
                 show += `
-                    <li><a class="dropdown-item langs" href="#">${languages[i].nativeName}</a></li>           
+                    <li><a class="dropdown-item langs text-center" href="#">${languages[i].nativeName}</a></li>           
                     `
             }
 

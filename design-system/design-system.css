@@ -161,8 +161,12 @@
     height:48px;
     padding:0 24px;
     letter-spacing: 0.03em;
-    border: 2px solid;
+    border: 2px solid var(--pancake-primary);
     background-color: transparent;
+}
+.btn-empty:hover{
+  color:var(--pancake-primary);
+
 }
 
 
