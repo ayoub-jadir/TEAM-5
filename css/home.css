@@ -217,6 +217,43 @@ img{
 
 /* ---------------------------- END Hero Section ------------------------ */
 
+/* ---------------------------- START Trade Anything CTA ------------------------ */
+/* .container-grande{
+    height:100vh;
+    background: linear-gradient(139.73deg, #F7F5FF 0%, rgb(250, 249, 250) 100%);
+    padding:0;
+    position:relative;
+    z-index:1;
+}
+.sub-container{
+    height:90vh;
+    background: linear-gradient(139.73deg, #F7F5FF 0%, rgb(250, 249, 250) 100%); 
+} */
+.box-sec{
+    background: rgb(250, 249, 250);
+}
+.box-sec2{
+    background:rgb(250, 249, 250); 
+}
+.diff-col{
+    color: var(--pancake-secondary);
+}
+.bottom2 h2{
+    font-size:40px;
+    font-weight: bold;
+    color: var(--pancake-main-dark);
+}
+.bottom2 h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--pancake-main-light);
+}
+#border{
+    border:none;
+}
+/* ---------------------------- END Trade Anything CTA ------------------------ */
+
 
 
 /* ---------------------------- START Earn Passive Income ------------------------ */
