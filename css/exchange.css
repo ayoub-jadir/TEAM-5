@@ -1,0 +1,45 @@
+html, body{
+    height:100%;
+}
+
+.scroll{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: rgb(133 133 133 / 10%) 0px -2px 0px -8px inset;
+    height:50px;
+}
+
+.box1{
+    padding-right:30px;
+}
+
+.small_text a{
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration:none;
+    color: var(--pancake-secondary);   
+}
+
+.small_text a:hover{
+    background-color: rgb(239, 244, 245);
+    padding:13px 5px;
+}
+
+.green-b{
+    position:relative;
+    padding:13px 5px;
+}
+
+.green-b::after{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    height: 4px;
+    width: 100%;
+    background-color: rgb(31, 199, 212);
+    border-radius: 2px 2px 0px 0px;
+}
