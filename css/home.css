@@ -257,40 +257,54 @@ img{
 
 
 /* ---------------------------- START Earn Passive Income ------------------------ */
-.earn-container {
-    width: 100%;
-    height: 774px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.earn-content {
-    border: 1px solid #000;
-    width: 920px;
-    height: 430px;
-    display: flex;
-}
-.earn-sub-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.earn-img {
-    border: 1px solid #000;
-    width: 415px;
-    height: 430px;
-}
-.earn-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.earn-text-content span:first-child {
-    color: var(--pancake-main-light);
-    font-family: 'Kanit', sans-serif;
-}
-.earn-text-content span:last-child {
-    color: var(--pancake-main-dark);
-    font-family: 'Kanit', sans-serif;
+.box-sec3 {
+    background-color: #EAF1F5;
+    height: 200px;
 }
 /* ---------------------------- END Earn Passive Income ------------------------ */
+
+
+
+/* START Winning Millions */
+.win-millions {
+    height: 800px;
+    background: linear-gradient(#72B8F1, #E9F1F5 );
+}
+.win-millions-content {
+    width: 900px;
+    height: 600px;
+    background: linear-gradient(#CBE5F9, #F0F7FB );    
+    border-radius: 10%;
+}
+.win-millions-card-1, .win-millions-card-2 {
+    width: 250px;
+    height: 310px;
+}
+.win-millions-card-1 {
+    transform: rotate(-5deg);
+    background: linear-gradient(#FFB338, #FFE76A );    
+    border-radius: 5%;
+}
+.win-millions-card-2 {
+    transform: rotate(3deg);
+    background: linear-gradient(#7544D8, #5222B2 );    
+    border-radius: 5%;
+}
+.dark-col, .dark-col-2, .dark-col-3 {
+    color: #280D5F;
+}
+.dark-col-2 {
+    font-size: 34px;
+    font-weight: bold;
+}
+.white-col, .white-col-2{
+    color: white;
+}
+.yellow-col {
+    color: #FEC317;
+    font-size: 34px;
+    font-weight: 500;
+}
+.white-col-2 {
+    font-size: 15px;
+}

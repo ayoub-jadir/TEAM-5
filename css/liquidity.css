@@ -1,0 +1,244 @@
+.switch-page {
+    height: 40px;
+    background-color: white;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#E9F9FF, #EEF4FF);
+}
+.content-modal {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    background: #746c9f;
+    opacity: 1;
+}
+.sub-content {
+    width: 33%;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.357);
+}
+.sub-content-2 {
+    width: 100%;
+    height: 70px;
+    background-color: #EEEEEE;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondary-color {
+    color: rgb(122, 110, 170);
+}
+.sub-content-3, .sub-content-4 {
+    width: 100%;
+    height: 70px;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.sub-content-4 {
+    padding-left: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.357);
+}
+.small-text {
+    font-size: 12px;
+    font-weight: 100;
+}
+.tert-color {
+    color: #280D5F;
+}
+.sub-content-1 {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-content-1 a {
+    width: 90%;
+}
+.other-cont {
+    width: 33%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.357);
+}
+.other-cont-1, .search-name {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-cont-1 a {
+    width: 90%;
+    height: 56px;
+    background-color: #EEEAF4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rel {
+    position: absolute;
+    top: 70px;
+}
+.fix {
+    position: absolute;
+    top: -24px;
+    right: 34.9%;
+    height: 624px;
+}
+.modalPancake {
+    width: 100%;
+    height: 70px;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    margin-top: 25px;
+}
+.sub-content-5 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.357);
+}
+.search-name {
+    margin-top: 35px;
+}
+.search-name a {
+    width: 90%;
+    height: 56px;
+    background-color: #EEEAF4;
+    display: flex;
+    color: #958BBB;
+    border: 2px solid #7645d9bf;
+}
+.search-name a input {
+    border: none;
+    background-color: #EEEAF4;
+    margin-bottom: 10px;
+    width: 250px;
+}
+.search-name a input::placeholder {
+    color: #958BBB;
+}
+.common-icons {
+    display: flex;
+    justify-content: space-around;
+}
+.all-icons {
+    display: flex;
+    flex-direction: row;
+    height: 365px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.modalPancake:first-child {
+    display: flex;
+    flex-direction: column;
+}
+.all-icons h6 {
+    margin: 12.5px;
+    color: #280D5F;
+}
+/* scrollbar */
+/* width */
+.all-icons::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+  .all-icons::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+  .all-icons::-webkit-scrollbar-thumb {
+    background: #7645d9bf; 
+    border-radius: 10px;
+}
+.modal-change-bg {
+    background: #746c9f;
+    opacity: 100;
+}
+#selectCurrency-1, #selectCurrency-2 {
+    cursor: pointer;
+}
+.esc-from-modal {
+    width: 20px;
+    position: absolute;
+    top: 30px;
+    left: 350px;
+    cursor: pointer;
+    color: #6EDBE3;
+}
+html {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.disactive {
+    display: none;
+}
+
+
