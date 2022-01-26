@@ -4,35 +4,26 @@
 document.getElementById("btn-drop").addEventListener("mouseenter", mostraLista);
 
 function mostraLista() {
-
     let ajax = new XMLHttpRequest();
 
     ajax.open("GET", url, true);
-
     ajax.onload = function () {
         if (this.status == 200) {
-
             let languages = JSON.parse(this.responseText);
             let show = "";
-
 
             for (let i in languages) {
                 show += `
                     <li><a class="dropdown-item langs text-center" href="#">${languages[i].nativeName}</a></li>           
                     `
             }
-
             document.getElementById("lista-lingue").innerHTML = show;
-
 
         } else if (this.status == 404) {
             document.getElementById("lista-lingue").innerHTML = "Risorsa non trovata!";
         }
-
     }
-
     ajax.send();
-
 }
 
 
@@ -45,6 +36,20 @@ $(document).ready(function () {
         }
     });
 });
+
+// Submenu Javascript;
+let element1 = document.getElementById("pills-home-tab");
+let element2 = document.getElementById("pills-profile-tab");
+
+element2.addEventListener('click', function () {
+    element2.classList.add('green-b', 'secondary-v');
+    element1.classList.remove("green-b", 'secondary-v');
+})
+
+element1.addEventListener('click', function () {
+    element1.classList.add('green-b', 'secondary-v');
+    element2.classList.remove("green-b", 'secondary-v');
+})
 
 
 // Grafico pagina Exchange;
