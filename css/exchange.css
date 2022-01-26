@@ -9,23 +9,24 @@ html, body{
     align-items:center;
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: rgb(133 133 133 / 10%) 0px -2px 0px -8px inset;
-    height:50px;
+    height:30px;
 }
 
-.box1{
-    padding-right:30px;
-}
-
-.small_text a{
+.nav-link.small_text{
     font-size: 16px;
     line-height: 1.5;
     text-decoration:none;
-    color: var(--pancake-secondary);   
+    background-color: transparent !important;
 }
 
-.small_text a:hover{
-    background-color: rgb(239, 244, 245);
+.nav-link.small_text:hover{
+    background-color: rgb(239, 244, 245) !important;
+    position:relative;
     padding:13px 5px;
+}
+
+.nav-link.small_text.active{
+    color:var(--pancake-secondary) !important;
 }
 
 .green-b{
@@ -42,4 +43,11 @@ html, body{
     width: 100%;
     background-color: rgb(31, 199, 212);
     border-radius: 2px 2px 0px 0px;
+}
+
+.color{
+    color:var(--pancake-main-light) !important;
+}
+.secondary-v{
+    color:var(--pancake-secondary) !important;
 }
